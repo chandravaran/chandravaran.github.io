@@ -71,7 +71,7 @@ a {
 a:focus,
 a:hover {
   /* color: #f09228; */
-  color: #F5F5DC;
+  color: #4f9b47;
   text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ body {
 } */
 td{
   /* background-color: 	rgb(40,40,40); */
-  background-color: #F5F5DC;
+  background-color: #3db355;
 }
 /* td, */
 th,
@@ -154,12 +154,12 @@ name {
 }
 
 span.highlight {
-  background-color: #ffffd0;
+  background-color: #36a840;
 }
 
 #colorstrip{
   width: 99%; height: 8px;
   border-style: solid;
   border-color: white;
-  background-color: #F5F5DC;
+  background-color: #409e4e;
 }
