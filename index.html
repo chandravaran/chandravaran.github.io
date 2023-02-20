@@ -10,7 +10,8 @@
     
     <title>Chandravaran - My Home Page</title>
 
-
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="img/Chandravaran_Kunjeti_crop.jpg">        
         <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -202,20 +203,38 @@
             <div class="col-md-10  col-md-offset-1">
               <div class="panel-body">
                 <h4>
+                    <!-- <strong><a href="projects.html#adascan">Research Assistant- PAL Group</a></strong> | Reinforcement Learning, Computer Vision, ROS -->
+                    <strong> <a href="https://dair.seas.upenn.edu/">Graduate Research Assistant</a></strong> || C++17, Controls, Computer Vision
+                    <!-- <div class="right"> <small> Aug '21 - Jun '22 </div> -->
+                    </h4>
+                    <div class="text-left"> 
+                      <h6> <strong> Dr. Micheal Posa, DAIR Lab (GRASP Lab), University of Pennsylvania </strong> 
+                        <div class="right"> <small> Jan 2022 - Present </small></div>
+                        </h6> 
+                    </div>
+                    <UL>
+                      <LI>  Working on the perception stack to extract convex foot holds from an elevation map for bipedal robot in C++17
+                    </UL>
+                <h4>
                   <!-- <strong><a href="projects.html#adascan">Research Assistant- PAL Group</a></strong> | Reinforcement Learning, Computer Vision, ROS -->
                   <strong> <a href="https://kodlab.seas.upenn.edu/">Graduate Research Assistant</a></strong> || C++, Controls, Software Architecture
                   <!-- <div class="right"> <small> Aug '21 - Jun '22 </div> -->
                   </h4>
                   <div class="text-left"> 
                     <h6> <strong> Dr. Dan Koditschek, Kod*lab (GRASP Lab), University of Pennsylvania </strong> 
-                      <div class="right"> <small> Aug '22 - Present </small></div>
+                      <div class="right"> <small> Aug 2022 - Jan 2023 </small></div>
                       </h6> 
                   </div>
                   <UL>
-                    <LI>  Presently developing an SDK for quadrupeds, which can be used to control quadruped robots.
-                      <LI>  Currently working on packages used to generalize behaviors like, walking and spine twist for the quadruped Twist.
-                        <LI>   Implemented a versatile joystick interface that is used to communicate with joysticks like Logitech f710, and Xbox 360
-                  </UL>  
+                    <LI>  Contributed to the development of the Kod*Lab SDK by developing a PID controller class tested on hardware
+                      <LI>  Implemented a versatile joystick interface that is used to communicate with joysticks like Logitech, and Xbox
+                        allowing my supervisor to remotely send customizable inputs to the robot from the host computer by using a python 
+                        interface and LCM messaging.
+                        <LI> Contributed to a debugging tool which plotted the center of mass position and velocity as well as the 3D model for a 
+                            particular time slice, allowing my supervisor to isolate the problem with the controller swiftly
+                            
+                  </UL>
+
                   <br>
                   <h4>
                   <strong><a href="">DAAD WISE Research Intern </a></strong> || Python, Multi Agent, Perception
@@ -927,8 +946,7 @@
     </footer>
     <!-- /Footer -->
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" type="image/jpeg" href="img/Chandravaran_Kunjeti_crop.jpg">
+
     <!-- Add custom CSS here -->
     
     <link href="css/style.css" rel="stylesheet">
